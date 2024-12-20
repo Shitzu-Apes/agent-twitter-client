@@ -1,8 +1,8 @@
 {
-  "name": "agent-twitter-client",
-  "description": "A twitter client for agents",
+  "name": "agent-twitter-client-cf-workers",
+  "description": "A twitter client for agents with Cloudflare Workers compatibility",
   "keywords": [],
-  "version": "0.0.16",
+  "version": "0.0.17",
   "main": "dist/default/cjs/index.js",
   "types": "./dist/types/index.d.ts",
   "exports": {

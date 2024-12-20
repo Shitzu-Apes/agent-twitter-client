@@ -243,7 +243,6 @@ export class TwitterGuestAuth implements TwitterAuth {
     const res = await this.fetch(guestActivateUrl, {
       method: 'POST',
       headers: headers,
-      referrerPolicy: 'no-referrer',
     });
 
     await updateCookieJar(this.jar, res.headers);

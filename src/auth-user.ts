@@ -347,9 +347,8 @@ export class TwitterUserAuth extends TwitterGuestAuth {
     await this.installCsrfToken(headers);
 
     const res = await this.fetch(onboardingTaskUrl, {
-      credentials: 'include',
       method: 'POST',
-      headers: headers,
+      headers,
       body: JSON.stringify(data),
     });
 
